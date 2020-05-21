@@ -81,20 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/main.js":
-/*!*********************!*\
-  !*** ./src/main.js ***!
-  \*********************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _matematica__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./matematica */ \"./src/matematica.js\");\n\nvar res = Object(_matematica__WEBPACK_IMPORTED_MODULE_0__[\"soma\"])(1, 2);\nconsole.log(res);\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _matematica__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./matematica */ \"./src/matematica.js\");\n\nvar res = Object(_matematica__WEBPACK_IMPORTED_MODULE_0__[\"soma\"])(1, 2);\nconsole.log(res);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
