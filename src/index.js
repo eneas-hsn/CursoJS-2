@@ -11,10 +11,10 @@ async function outrapormisse() {
     const res= await promisse()
     console.log('ex',res)
 }
- const xpromise=async()=> {
+ const xpromis=async()=> {
     const res= await promisse()
     console.log('ex3',res)
 }
 outrapormisse()
-xpromise()
+xpromis()
 console.log('end')
